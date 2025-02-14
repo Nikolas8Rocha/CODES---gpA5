@@ -1,2 +1,2 @@
 # CODES---gpA5
-Caioba - Guilherme - Joseph - Nikolas - Pedro
+Caio - Guilherme - Joseph - Nikolas - Pedro
