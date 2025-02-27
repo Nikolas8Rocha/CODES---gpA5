@@ -1,6 +1,6 @@
 .divisórias{
     display: flex;
-    margin-top: 35%;
+    margin-top: 23%;
     display:flow-root;
 }
 
@@ -23,11 +23,10 @@ h3{
 
 
 .img_R_N{
-    width: 100%;
+    width: 100vw;
     height: auto;
     /* border: solid; */
     cursor: pointer;
-    
 }
 
 
