@@ -3,37 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/PNG" href="./CookEat!.png">
+    <link rel="shortcut icon" type="image/PNG" href="./imagens/CookEat!.png">
     <title>CookEat!</title>
     <link rel="stylesheet" href="./Design_interface_inicial.css">
+    <link rel="stylesheet" href="./Padrao.css">
 </head>
-<body>
-    <header class="header">
-        <h1>CookEat!</h1>
-        <img src="./logo_sem_fundo.png" alt="logo" class="logo" >
-        <img src="./icones_footer/Perfil.png" alt="Perfil" class="perfil">
-    </header>
+    <body>
+        <header class="header">
+            <h1>CookEat!</h1>
+            <img src="./Imagens/logo_sem_fundo.png" alt="logo" class="logo" >
 
-    <main class="divisórias_tela_inicial">
-        <div class="divisórias" id="Receitas_da_semana">
-            <h2 class="Titulo_R_N" id="Titulo_R">Receitas da Semana</h2>
-            <img src="https://www.unileverfoodsolutions.com.br/dam/global-ufs/mcos/SLA/calcmenu/recipes/BR-recipes/chicken-&-other-poultry-dishes/strogonoff-de-frango/main-header.jpg" alt="Strogonoff De Frango" class="img_R_N">
-        </div>
+            <a href="#" class="a_perfil">
+                <img src="./Imagens/Perfil.png" alt="Perfil" class="perfil">
+            </a>
 
-        <div class="divisórias" id="novidades">
-            <h2 class="Titulo_R_N" id="Titulo_N">Novas Receitas</h2>
-            <img src="https://img.cybercook.com.br/receitas/781/curry-indiano-com-arroz-basmati.jpeg" alt="Curry Indiano" class="img_R_N">
-        </div>
-    </main>
+        </header>
 
-    <footer>
-        <nav>
-            <img src="./icones_footer/casa.png" alt="Casa" class="casa" >
-            <img src="./icones_footer/livro.png" alt="Livro" class="livro">
-            <img src="./icones_footer/dispensa.png" alt="Dispensa" class="dispensa">
-            <img src="./icones_footer/estrela.png" alt="Estrela" class="estrela">
-            <img src="./icones_footer/relogio.png" alt="Relógio" class="relogio">
-        </nav>
-    </footer>
-</body>
+        <main class="divisórias_tela_inicial">
+            <div class="divisórias" id="Receitas_da_semana">
+                <h2 class="Titulo_R_N" id="Titulo_R">Receitas da Semana</h2>
+                <img src="https://www.unileverfoodsolutions.com.br/dam/global-ufs/mcos/SLA/calcmenu/recipes/BR-recipes/chicken-&-other-poultry-dishes/strogonoff-de-frango/main-header.jpg" alt="Strogonoff De Frango" class="img_R_N">
+            </div>
+
+            <div class="divisórias" id="novidades">
+                <h2 class="Titulo_R_N" id="Titulo_N">Novas Receitas</h2>
+                <img src="https://img.cybercook.com.br/receitas/781/curry-indiano-com-arroz-basmati.jpeg" alt="Curry Indiano" class="img_R_N">
+            </div>
+        </main>
+
+        <footer>
+            <nav>
+                <a href="/index.html" class="a_nav">
+                    <img src="./Imagens/icones_footer/casa.png" alt="Casa" class="casa" >
+                </a>
+
+                <a href="./Telas/Receitas/receitas.html" class="a_nav">
+                    <img src="./Imagens/icones_footer/livro.png" alt="Livro" class="livro">
+                </a>
+                
+                <a href="./Telas/Dispensa/dispensa.html" class="a_nav">
+                    <img src="./Imagens/icones_footer/dispensa.png" alt="Dispensa" class="dispensa">
+                </a>
+                
+                <a href="./Telas/Historico/historico.html" class="a_nav">
+                    <img src="./Imagens/icones_footer/relogio.png" alt="Relógio" class="relogio">
+                </a>       
+            </nav>
+        </footer>
+        
+    </body>
 </html>
