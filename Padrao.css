@@ -56,7 +56,7 @@ h1{
     position: fixed;
 }
 
-.divisórias_tela_inicial{
+.sections_tela_inicial{
     display: flex;
     flex-direction: column;
 }
@@ -101,8 +101,64 @@ box-shadow: 0px 0px 18px -1px rgba(0,0,0,0.75);
 
 #a_relogio,
 #a_dispensa,
-#a_livro{
+#a_livro,
+#a_estrela{
   border-left: solid white 1px;
 }
 
+@media (min-width: 1024px) {
+    h1{ 
+        font-size: 250%;
+        padding-bottom: 0.7%;
+    }
 
+    .sections_tela_inicial{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+    }
+
+    nav{
+        flex-direction: column;
+        width: 9%;
+        height: 90%;
+        border: none;
+        box-shadow: none;
+    }
+
+
+    .casa,
+    .estrela,
+    .relogio,
+    .dispensa,
+    .livro{
+        filter: invert(100%);
+        cursor: pointer; 
+        width: 20%;
+        height: auto;
+    }
+
+    #a_relogio,
+    #a_dispensa,
+    #a_livro,
+    #a_home,
+    #a_estrela{
+        border: none ;
+    }
+
+    h4{
+        color: white;
+        margin-top: 5%;
+        text-decoration: none;
+    }
+
+    .logo{
+        margin-right: 91%;
+    }
+
+    .a_perfil{
+        margin-left: 91%;
+    }
+
+}

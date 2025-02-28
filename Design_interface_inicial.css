@@ -1,4 +1,4 @@
-.divisórias{
+.sections{
     display: flex;
     margin-top: 23%;
     display:flow-root;
@@ -9,8 +9,6 @@
 }
 
 .Titulo_R_N{
-    /* border: solid; */
-    border-bottom: none;
     padding-left: 2%;
     margin-bottom: 2%;
 }
@@ -25,8 +23,30 @@ h3{
 .img_R_N{
     width: 100vw;
     height: auto;
-    /* border: solid; */
     cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .sections{
+        margin-left: 9%;
+    }
+
+    .Titulo_R_N{
+        font-size: 200%;
+        padding-left: 0%;
+    }
+
+    .img_R_N{
+        width: 40vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    #Receitas_da_semana,
+    #novidades{
+        margin-top: 13%;
+    }
+
 }
 
 
