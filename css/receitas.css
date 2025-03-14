@@ -1,0 +1,34 @@
+h3{
+    margin-top: 25%;
+    font-size: 200%;
+}
+
+.pesquisa_e_filtro{
+    display: flex;
+    justify-content: center;
+    height: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: solid;
+    height: 40px;
+}
+
+.referencia_pesquisar,
+.referencia_de_filtro{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.pesquisar,
+.filtrar{
+    width: 18%;
+    
+}
+
+.barra_de_pesquisa{
+    width: 200%;
+    height: 30px;
+    margin-top: 1.1%;
+    border: none;
+}
