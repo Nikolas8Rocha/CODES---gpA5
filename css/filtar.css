@@ -1,0 +1,87 @@
+#main-receitas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.div-seta{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+    margin-bottom: 10%;
+    border-bottom:solid 1px;
+    padding-bottom: 1rem;
+}
+
+.titulo-receitas{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.a-seta{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    position: fixed;
+} 
+
+.seta{
+    height: 4vh;
+}
+
+.lista-filtros{
+    list-style: none;
+    border: solid;
+    width: 98vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff6e5;
+}
+
+.a_filtros{
+    color: #eb8b47;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.texto-opcoes{
+    width: 75vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#Alergias_e_Intolerancia{
+    border: none;
+    border-right: solid;
+    border-left: solid;
+}
+
+#Região_do_alimento{
+    border-bottom: none;
+}
+
+.seta-filtros{
+    height: 2vh;
+    transform: scaleX(-1);
+}
+
+
+.figure-filtro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

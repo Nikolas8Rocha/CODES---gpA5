@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/PNG" href="/imagens/CookEat!.png">
     <title>CookEat!</title>
-    <link rel="stylesheet" href="./css/dispensa.css">
+    <link rel="stylesheet" href="./css/filtar.css">
     <link rel="stylesheet" href="./css/Padrao.css">
 </head>
     <body>
@@ -17,31 +17,50 @@
             </a>
         </header>
 
-        <main class="sections_tela_inicial">
-            <a href="receitas.html">
-                <img src="/Imagens/arrow.png" alt="Voltar">
-            </a>
+        <main class="sections_tela_inicial" id="main-receitas">
+            <div class="div-seta">
+                <a href="receitas.html" class="a-seta">
+                    <img src="/Imagens/arrow.png" alt="Voltar" class="seta">
+                </a>
+                <div class="titulo-receitas">
+                    <h2>Filtros</h2>
+                </div>
+            </div>
+            
             <ul>
-                <li>
-                    <a href="#">Tipo de alimento</a>
+                <li class="lista-filtros" id="tipo_de_alimento" >
+                    <a href="#" class="a_filtros">
+                        <p class="texto-opcoes">Tipo de alimento</p>
+                        <figure class="figure-filtro">
+                            <img src="Imagens/arrow.png" alt="seta" class="seta-filtros">
+                        </figure>
+                    </a>
                 </li>
-
                
-                <li>
-                    <a href="/alergias_e_intolerancias.html">
-                        Alergias e Intolerância
+                <li class="lista-filtros" id="Alergias_e_Intolerancia">
+                    <a href="/alergias_e_intolerancias.html" class="a_filtros">
+                        <p class="texto-opcoes">Alergias e Intolerância</p>
+                        <figure class="figure-filtro">
+                            <img src="Imagens/arrow.png" alt="seta" class="seta-filtros">
+                        </figure>
                     </a>
                 </li>  
 
-                <li>
-                    <a href="#">
-                        Região do alimento
+                <li class="lista-filtros" id="Região_do_alimento" >
+                    <a href="#" class="a_filtros">
+                        <p class="texto-opcoes">Região do alimento</p>
+                        <figure class="figure-filtro">
+                            <img src="Imagens/arrow.png" alt="seta" class="seta-filtros">
+                        </figure>
                     </a>
                 </li>
 
-                <li>
-                    <a href="#">
-                        Informações nutriconais   
+                <li class="lista-filtros" id="Informações_nutricionais">
+                    <a href="#" class="a_filtros">
+                        <p class="texto-opcoes">Informação nutriconal</p>
+                        <figure class="figure-filtro">
+                            <img src="Imagens/arrow.png" alt="seta" class="seta-filtros">
+                        </figure>
                     </a>  
                 </li>
             </ul>
@@ -54,7 +73,7 @@
                 </a>
 
                 <a href="/receitas.html" class="a_nav" id="a_livro">
-                    <img src="/Imagens/icones_footer/livro.png" alt="Livro" class="livro">
+                    <img src="/Imagens/icones_footer/search.png" alt="Livro" class="livro">
                 </a>
                 
                 <a href="/dispensa.html" class="a_nav" id="a_dispensa">

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/PNG" href="/imagens/CookEat!.png">
     <title>CookEat!</title>
-    <link rel="stylesheet" href="./css/dispensa.css">
+    <link rel="stylesheet" href="./css/alergias_e_intolerancias.css">
     <link rel="stylesheet" href="./css/Padrao.css">
 </head>
     <body>
@@ -19,39 +19,44 @@
 
         <main class="sections_tela_inicial">
             <a href="filtrar.html">
-                <img src="/Imagens/arrow.png" alt="Anterior">
+                <img src="/Imagens/arrow.png" alt="Anterior" class="seta">
             </a>
-            <ul>
-                <li>
-                    Oleaginosas
-                    <input type="checkbox" name="oleaginosas_name" id="oleaginosas_id">
+            <ul class="lista-pai">
+                <li class="lista-filho">
+                    <p class="texto-op">Oleaginosas</p>
+                    <input type="checkbox" name="oleaginosas_name" id="oleaginosas_id" class="check">
                 </li>
                 
 
-                <li>
-                    Lactose
-                    <input type="checkbox" name="lactose_name" id="lactose_id">
+                <li class="lista-filho" id="lactose">
+                    <p class="texto-op">Lactose</p>
+                    <input type="checkbox" name="lactose_name" id="lactose_id" class="check">
                 </li>
                 
 
-                <li>
-                    Glúten
-                    <input type="checkbox" name="gluten_name" id="gluten_id">
+                <li class="lista-filho">
+                    <p class="texto-op">Glúten</p>
+                    <input type="checkbox" name="gluten_name" id="gluten_id" class="check">
                 </li>
                 
 
-                <li>
-                    Derivados Animais
-                    <input type="checkbox" name="derivados_animais_name" id="derivados_animais_id">
+                <li class="lista-filho" id="derivados_animais">
+                    <p class="texto-op">Derivados Animais</p>
+                    <input type="checkbox" name="derivados_animais_name" id="derivados_animais_id" class="check">
                 </li>
                 
 
-                <li>
-                    Açucar
-                    <input type="checkbox" name="acucar_name" id="acucar_id">
+                <li class="lista-filho">
+                    <p class="texto-op">Açucar</p>
+                    <input type="checkbox" name="acucar_name" id="acucar_id" class="check">
                 </li>
-                
             </ul>
+            <section class="section-botao">
+                <a class="botao_buscar" href="#">
+                    <p>Buscar</p>
+                    <img src="Imagens/search.png" alt="Buscar" class="lupa">
+                </a>
+            </section>
         </main>
 
         <footer>
@@ -61,7 +66,7 @@
                 </a>
 
                 <a href="/receitas.html" class="a_nav" id="a_livro">
-                    <img src="/Imagens/icones_footer/livro.png" alt="Livro" class="livro">
+                    <img src="/Imagens/icones_footer/search.png" alt="Livro" class="livro">
                 </a>
                 
                 <a href="/dispensa.html" class="a_nav" id="a_dispensa">
