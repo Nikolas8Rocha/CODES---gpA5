@@ -1,5 +1,34 @@
-h3{
-    margin-top: 50%;
-    border: solid;
+#main-historico{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.titulo-historico{
+    margin-top: 5.8rem;
+    border-bottom: solid;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.section-historico{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.titulo-prato{
+    margin-top: 1rem;
+}
+
+.prato-historico{
+    border-radius: 2rem;
+    width: 90vw;
 }
 

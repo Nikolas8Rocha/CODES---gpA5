@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/PNG" href="/imagens/CookEat!.png">
     <title>CookEat!</title>
-    <link rel="stylesheet" href="./css/historico.css">
+    <link rel="stylesheet" href="./css/prato-histórico.css">
     <link rel="stylesheet" href="./css/Padrao.css">
 </head>
     <body>
@@ -18,23 +18,38 @@
         </header>
 
         <main class="sections_tela_inicial">
-            <a href="/historico.html">
-                 <img src="/Imagens/arrow.png" alt="voltar">
-            </a>
-           
-            <h3 class="teste">Tilapia Grelhada</h3> 
-            <img src="/Imagens/star.png" alt="Favoritar">
-            <ul>
-                <li>
-                    <a href="#">Ingredientes</a>
+            <section class="section-prato-historico">
+                <a href="/historico.html" class="a-seta">
+                    <img src="/Imagens/arrow.png" alt="voltar" class="seta">
+               </a>
+              
+               <h3 class="titulo-historico">Tilapia Grelhada</h3> 
+               <img src="/Imagens/star.png" alt="Favoritar" class="fav">
+            </section>
+            <ul class="lista-pai">
+                <li class="lista-filho" >
+                    <a href="#" class="a-texto">
+                        <p class="texto-historico">Ingredientes</p>
+                        <img src="/Imagens/arrow.png" alt="voltar" class="seta-li">
+                    </a>
                 </li>
-                <li>
-                    <a href="#">Tebela Nutricional</a>
+                <li class="lista-filho" >
+                    <a href="#" class="a-texto">
+                        <p class="texto-historico">Tebela Nutricional</p>
+                        <img src="/Imagens/arrow.png" alt="voltar" class="seta-li">
+                    </a>
                 </li>
-                <li>
-                    <a href="#">Passo a passo</a>
+                <li class="lista-filho">
+                    <a href="#" class="a-texto">
+                        <p class="texto-historico">Passo a passo</p>
+                        <img src="/Imagens/arrow.png" alt="voltar" class="seta-li">
+                    </a>
                 </li>
             </ul>
+            <section class="section-video">
+                <h3 class="video-titulo">Video:</h3>
+                <video controls class="video"></video>
+            </section>
            
         </main>
 

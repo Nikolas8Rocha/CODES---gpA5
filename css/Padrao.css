@@ -22,6 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+    font-family: "Nunito Sans",  "Raleway", sans-serif;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -58,6 +59,7 @@ table {
 
 body{
     background-color: #e0e0e0;
+    font-family: "Nunito Sans", sans-serif, "Raleway", sans-serif;
 }
 
 /* Header */
@@ -74,6 +76,7 @@ header{
     display: flex;
     justify-content: center;
 }
+
 
 .logo{
     height: 9%;

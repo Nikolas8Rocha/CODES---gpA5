@@ -1,0 +1,67 @@
+.section-prato-historico{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: solid 1px black;
+}
+.seta{
+    height: 5vh;
+}
+
+.titulo-historico{
+    font-size: large;
+    font-weight: bold;
+    cursor: default;
+}
+
+.fav{
+    height: 5vh;
+    cursor: pointer;
+}
+
+.lista-pai{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 14vh;
+}
+
+.a-texto{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+.texto-historico{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 1rem;
+    width: 70vw;
+}
+
+.seta-li{
+    height: 2vh;
+    transform: scaleX(-1);
+}
+
+.section-video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.video-titulo{
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #eb8b47;
+}
+
+.video{
+    margin-top: 1rem;
+    width: 92vw;
+}

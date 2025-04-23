@@ -1,0 +1,76 @@
+.titulo-seta{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6rem;
+    font-size: larger;
+    font-weight: bold;
+    border-bottom: solid 1px;
+    padding-bottom: 1rem;
+}
+.a-seta{
+    position: absolute;
+    width: 100vw;
+}
+
+.seta{
+    height: 3vh;
+    padding-left: 1rem;
+}
+
+.lista-pai{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-filho{
+    list-style: none;
+    border: solid;
+    width: 60vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#fff6e5;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+#derivados_animais,
+#lactose{
+    border: none;
+}
+
+.texto-op{
+    color: #eb8b47;
+    font-weight: bold;
+}
+
+.section-botao{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.check{
+    cursor: pointer;
+}
+
+.lupa{
+    height: 3vh;
+}
+
+.botao_buscar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40vw;
+    height: 5vh;
+    background-color: #fff6e5;
+    border: solid black 2px;
+    text-decoration: none;
+    color: black;
+}
