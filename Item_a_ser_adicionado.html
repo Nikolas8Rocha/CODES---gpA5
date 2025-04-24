@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/PNG" href="/imagens/CookEat!.png">
     <title>CookEat!</title>
-    <link rel="stylesheet" href="./css/dispensa.css">
+    <link rel="stylesheet" href="./css/Item_a_ser_adicionado.css">
     <link rel="stylesheet" href="./css/Padrao.css">
 </head>
     <body>
@@ -17,20 +17,27 @@
             </a>
         </header>
 
-        <main class="sections_tela_inicial">
-            <a href="/dispensa.html">
-                <img src="/Imagens/arrow.png" alt="Anterior">
+        <main class="sections_tela_inicial" id="main">
+            <a href="/adicionar.html" class="a-seta">
+                <img src="/Imagens/arrow.png" alt="seta" class="seta">
             </a>
-            
-            <h3 class="teste">Dispensa</h3>
-            <input type="search" placeholder="Buscar">
-            <div>
-                <p>Quantidade</p>
-                <img src="/Imagens/next.png" alt="Proximo"> 
-            </div>
-           
-            <p>Validade: xx/xx/xxxx</p>
-            <button>Adicionar</button>
+            <section class="section-item">
+                <h2 class="separador" id="titulo-item">Item: Arroz Branco</h2>
+                <div class="separador">
+                    <p class="texto-item" >Quantidade</p>
+                    <input type="number" placeholder="0" class="input-item">
+                    <p class="texto-item">Kg</p>
+                </div>
+                <div class="separador">
+                    <p class="texto-item">Validade:</p>
+                    <p class="texto-item">xx/xx/xxxx</p>
+                </div>
+            </section>
+
+            <a href="#" class="a-adicionar">
+                <p>+</p>
+                <p>Adcionar</p>
+            </a>
         </main>
 
         <footer>

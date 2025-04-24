@@ -85,3 +85,25 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (min-width: 1024px) {
+    .lista-filtros{
+        list-style: none;
+        border: solid;
+        width: 60vw;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:#fff6e5;
+    }
+
+    .texto-opcoes{
+        width: 20vw;
+        height: 10vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+    }
+}

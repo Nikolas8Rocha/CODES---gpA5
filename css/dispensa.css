@@ -19,12 +19,21 @@
     background-color: #fff6e5;
     border: none;
     color: #eb8b47;
+    width: 50vw;
+    padding-left: 1rem;
 }
 
 .barra-pesquisa::placeholder{
     color: #eb8b47;
-    padding-left: 1rem;
 }
+
+.barra-pesquisa:focus{
+    outline: none;  
+}
+
+.barra-pesquisa::-webkit-search-cancel-button {
+    display: none;
+  }
 
 .icone{
     height: 3vh;
@@ -71,4 +80,27 @@
 .div-ajuste-adicionar{
     display: flex;
     justify-content: center;
+}
+
+@media (min-width: 1024px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .a-adicionar{
+        width: 10vw;
+    }
+
+    .section-pesquisa{
+        width: 40vw;
+    }
+
+    .barra-pesquisa{
+        width: 30vw;
+    }
+    .sub-titulo,
+    .lista-pai{
+    width: 50vw;
+    }
 }

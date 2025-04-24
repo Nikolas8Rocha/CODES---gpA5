@@ -1,0 +1,89 @@
+
+.section-pesquisa{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.div-ajuste{
+    display: flex;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff6e5;
+    width: 70vw;
+    height: 7vh;
+}
+
+.barra-pesquisa{
+    background-color: #fff6e5;
+    border: none;
+    color: #eb8b47;
+    padding-left: 1rem;
+}
+
+.barra-pesquisa::placeholder{
+    color: #eb8b47;
+}
+
+.barra-pesquisa:focus{
+    outline: none;
+}
+
+.barra-pesquisa::-webkit-search-cancel-button {
+    display: none;
+  }
+
+.icone{
+    height: 3vh;
+}
+
+.lista-pai{
+    margin-top: 3rem;
+}
+
+#Abacate{
+    border-top: solid;
+}
+
+.lista-filho{
+    border: solid;
+    border-top: none;
+    background-color: #fff6e5;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-lista{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    font-weight: bold;
+}
+
+.texto-lista{
+    width: 50vw;
+}
+
+@media (min-width: 1024px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .lista-filho{
+        width: 50vw;
+    }
+
+    .texto-lista{
+        width: 20vw;
+    }
+
+}

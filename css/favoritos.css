@@ -1,8 +1,29 @@
-h3{
-    margin-top: 50%;
-    border: solid;
+.titulo-favorito{
+    display: flex;
+    margin-top: 6rem;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
 }
 
-.estrela_id{
-    filter: invert(0%);
+.prato-favorito{
+    border-radius: 2rem;
+    margin-top: 6rem;
+    width: 90vw;
+    cursor: pointer;
+}
+
+.section-favoritos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: bold;
+}
+
+.a-section{
+    text-decoration: none;
+    color: black;
 }

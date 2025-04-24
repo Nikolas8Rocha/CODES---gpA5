@@ -12,18 +12,16 @@
 }
 
 #novidades{
-    margin-top: 5%;
+    margin-top: 3rem;
 }
 
 .Titulo_R_N{
-    padding-left: 2%;
-    margin-bottom: 2%;
-}
-
-h1,
-h2,
-h3{
+    padding-left: 1rem;
+    margin-bottom: 1rem;
     cursor:default;
+    color: #222222;
+    font-size: large;
+    font-weight: bold;
 }
 
 

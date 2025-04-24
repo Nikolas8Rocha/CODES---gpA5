@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/PNG" href="/imagens/CookEat!.png">
     <title>CookEat!</title>
-    <link rel="stylesheet" href="./css/historico.css">
+    <link rel="stylesheet" href="./css/prato-favorito.css">
     <link rel="stylesheet" href="./css/Padrao.css">
 </head>
     <body>
@@ -17,21 +17,40 @@
             </a>
         </header>
 
-        <main class="sections_tela_inicial" id="main-historico">
-            <h3 class="titulo-historico">Ultimas Receitas</h3> 
-            <section class="section-historico">
-                <a href="/Prato_histórico.html ">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_O8uHG17Gb6b-uZHwBqGs1m4VhDCNWiu3g&s" alt="Tilapia Grelhada" class="prato-historico">
-                </a>
-                <h4 class="titulo-prato">Filé de Tilápia Grelhada</h4>
+        <main class="sections_tela_inicial">
+            <section class="section-prato-historico">
+                <a href="/historico.html" class="a-seta">
+                    <img src="/Imagens/arrow.png" alt="voltar" class="seta">
+               </a>
+              
+               <h3 class="titulo-historico">Tilapia Grelhada</h3> 
+               <img src="/Imagens/estrela_laranja.png" alt="Favoritar" class="fav">
             </section>
-
-            <section class="section-historico">
-                <a href="#">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy_O8uHG17Gb6b-uZHwBqGs1m4VhDCNWiu3g&s" alt="Tilapia Grelhada" class="prato-historico">
-                </a>
-                <h4 class="titulo-prato">Filé de Frango Grelhado</h4>
+            <ul class="lista-pai">
+                <li class="lista-filho" >
+                    <a href="#" class="a-texto">
+                        <p class="texto-historico">Ingredientes</p>
+                        <img src="/Imagens/arrow.png" alt="voltar" class="seta-li">
+                    </a>
+                </li>
+                <li class="lista-filho" >
+                    <a href="#" class="a-texto">
+                        <p class="texto-historico">Tebela Nutricional</p>
+                        <img src="/Imagens/arrow.png" alt="voltar" class="seta-li">
+                    </a>
+                </li>
+                <li class="lista-filho">
+                    <a href="#" class="a-texto">
+                        <p class="texto-historico">Passo a passo</p>
+                        <img src="/Imagens/arrow.png" alt="voltar" class="seta-li">
+                    </a>
+                </li>
+            </ul>
+            <section class="section-video">
+                <h3 class="video-titulo">Video:</h3>
+                <video controls class="video"></video>
             </section>
+           
         </main>
 
         <footer>

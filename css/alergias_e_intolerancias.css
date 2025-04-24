@@ -71,3 +71,28 @@
     text-decoration: none;
     color: black;
 }
+
+@media (min-width: 1024px) {
+    #main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .botao_buscar{
+        width: 20vw;
+    }
+
+    .texto-op{
+        width: 20vw;
+    }
+
+    .lista-filho{
+        display: flex;
+        width: 50vw;
+        justify-content: space-around;
+    }
+
+    .titulo-seta{
+        width: 100vw;
+    }
+}
