@@ -5,6 +5,7 @@
 }
 
 .div-ajuste{
+    margin-top: 10%;
     display: flex;
     border: solid;
     justify-content: center;
