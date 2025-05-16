@@ -21,9 +21,15 @@
     justify-content: center;
     gap: 1rem;
     font-weight: bold;
+   
 }
 
 .a-section{
     text-decoration: none;
     color: black;
+}
+
+.img-menor{
+    max-width: 280px;
+
 }

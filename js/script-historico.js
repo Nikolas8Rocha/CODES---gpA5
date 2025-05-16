@@ -1,6 +1,13 @@
 document.addEventListener('DOMContentLoaded', function(){
-    localStorage.setItem("tilapia_grelhada_selecionada", "false");
-    localStorage.setItem("frango_grelhada_selecionada", "false");
+    vericacaoF = localStorage.getItem("frango_grelhada_selecionada")
+    vericacaoT = localStorage.getItem("tilapia_grelhada_selecionada")
+
+    if (vericacaoF === null){
+        localStorage.setItem("frango_grelhada_selecionada", "false");
+    }
+    if (vericacaoT === null){
+        localStorage.setItem("tilapia_grelhada_selecionada", "false");
+    }
     iconeRelogio = document.querySelector('.relogio');
     iconeRelogio.style.filter = 'invert(0%)'; 
 
