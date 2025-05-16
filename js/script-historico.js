@@ -1,5 +1,20 @@
 document.addEventListener('DOMContentLoaded', function(){
-
+    localStorage.setItem("tilapia_grelhada_selecionada", "false");
+    localStorage.setItem("frango_grelhada_selecionada", "false");
     iconeRelogio = document.querySelector('.relogio');
     iconeRelogio.style.filter = 'invert(0%)'; 
+
+    lista_historico = document.querySelectorAll(".section-historico");
+
+    for(um_item of lista_historico){
+        um_item.addEventListener("click", function(evento){
+            item_clicado = evento.currentTarget;
+            receita = item_clicado.innerHTML;
+            console.log(receita);
+            localStorage.setItem("titulo-prato", item_clicado.querySelector("h4").innerHTML);
+            localStorage.setItem("prato", receita);
+            
+            
+        })
+    }
 })
