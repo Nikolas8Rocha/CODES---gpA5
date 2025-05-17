@@ -1,6 +1,6 @@
 .titulo-favorito{
     display: flex;
-    margin-top: 6rem;
+    margin-top: 35%;
     align-items: center;
     justify-content: center;
     font-size: large;
@@ -21,6 +21,20 @@
     justify-content: center;
     gap: 1rem;
     font-weight: bold;
+    margin-top: 10%;
+    position: relative;
+   
+}
+
+.section-favoritos2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    font-weight: bold;
+    margin-top: 10%;
+    position: relative;
    
 }
 
@@ -30,6 +44,35 @@
 }
 
 .img-menor{
-    max-width: 280px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5%;
+    border: solid black;
 
+}
+
+.img-menor2{
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 5%;
+    border: solid black;
+
+}
+
+.img-estrela{
+    position: absolute;
+    left: 77%;
+    top: -22%;
+    max-width: 80px;
+    max-height: 80px;
+    
+}
+
+.img-estrela2{
+    position: absolute;
+    left: 77%;
+    top: -22%;
+    max-width: 80px;
+    max-height: 80px;
+    
 }

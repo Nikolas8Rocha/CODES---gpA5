@@ -11,43 +11,69 @@ document.addEventListener('DOMContentLoaded', function () {
 
         a_criado = document.createElement("a");
         a_criado.classList.add("a-section");
+        
+        //arrumar a lógica de levar até a tela de histórico
+        a_criado.href = "/Prato_histórico.html";
+            
+        
+        
+        
         section_criada = document.createElement("section");
         section_criada.classList.add("section-favoritos");
+        
+        p_criada = document.createElement("p");
+        p_criada.innerHTML = "Frango Grelhado"
+
         img_criada = document.createElement("img");
         img_criada.classList.add("img-menor");
-        img_criada.alt = "batata";
-        p_criada = document.createElement("p");
-
+        img_criada.alt = "Frango grelhado";
         img_criada.src = "Imagens/frango_grelhado.png"
 
-        p_criada.innerHTML = "Frango Grelhado"
+        img_estrela = document.createElement("img");
+        img_estrela.classList.add("img-estrela");
+        img_estrela.src= "Imagens/estrela_laranja.png";
+        img_estrela.alt = "Favoritada";
+        
 
         a_criado.appendChild(section_criada);
         section_criada.appendChild(img_criada);
         section_criada.appendChild(p_criada);
+        section_criada.appendChild(img_estrela);
 
-        main.appendChild(section_criada);
+        //main.appendChild(section_criada);
+        main.appendChild(a_criado);
+
+
     }
     if (tilapia == "true") {
         a_criado = document.createElement("a");
         a_criado.classList.add("a-section");
 
-        section_criada = document.createElement("section");
-        section_criada.classList.add("section-favoritos");
+        section_criada2 = document.createElement("section");
+        section_criada2.classList.add("section-favoritos2");
 
-        img_criada = document.createElement("img");
-        img_criada.classList.add("img-menor");
-        img_criada.alt = "batata2";
         p_criada = document.createElement("p");
-
-        img_criada.src = "Imagens/tilapia_grelhada.png"
         p_criada.innerHTML = "Tilapia Grelhado"
+        
+        img_criada2 = document.createElement("img");
+        img_criada2.classList.add("img-menor2");
+        img_criada2.alt = "Tilapia Grelhada";
+        img_criada2.src = "Imagens/tilapia_grelhada.png";
 
-        a_criado.appendChild(section_criada);
-        section_criada.appendChild(img_criada);
-        section_criada.appendChild(p_criada);
+        img_estrela2 = document.createElement("img");
+        img_estrela2.classList.add("img-estrela2");
+        img_estrela2.src= "Imagens/estrela_laranja.png";
+        img_estrela2.alt = "Favoritada";
 
-        main.appendChild(section_criada);
+        
+
+        a_criado.appendChild(section_criada2);
+        section_criada2.appendChild(img_criada2);
+        section_criada2.appendChild(p_criada);
+        section_criada2.appendChild(img_estrela2);
+
+        //main.appendChild(section_criada);
+        main.appendChild(a_criado);     
 
     }
 

@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', function(){
     vericacaoF = localStorage.getItem("frango_grelhada_selecionada")
     vericacaoT = localStorage.getItem("tilapia_grelhada_selecionada")
 
+    //verifica se já existe, se não existir ele cria
     if (vericacaoF === null){
         localStorage.setItem("frango_grelhada_selecionada", "false");
     }
