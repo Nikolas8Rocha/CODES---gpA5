@@ -76,6 +76,10 @@ document.addEventListener('DOMContentLoaded', function () {
         main.appendChild(a_criado);     
 
     }
+    body = document.querySelector("body");
+    body.style.backgroundColor = "transparent"; 
+    body.style.backgroundImage = "url(Imagens/parede_branca.png)";
+    body.style.backgroundPosition = "center";
 
 
 })

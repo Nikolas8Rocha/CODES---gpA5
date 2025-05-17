@@ -21,7 +21,12 @@ document.addEventListener('DOMContentLoaded', function(){
         mudacorTela[2].style.backgroundColor = "#fff6e5"
     })
     iconeDispensa = document.querySelector('.dispensa');
-    iconeDispensa.style.filter = 'invert(0%)';    
+    iconeDispensa.style.filter = 'invert(0%)';
+    
+    body = document.querySelector("body");
+    body.style.backgroundColor = "transparent"; 
+    body.style.backgroundImage = "url(Imagens/parede_branca.png)";
+    body.style.backgroundPosition = "center";
 
 
 })
