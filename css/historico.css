@@ -5,13 +5,15 @@
 }
  
 .titulo-historico{
-    margin-top: 5.8rem;
+    margin-top: 6rem;
     border-bottom: solid;
     display: flex;
     justify-content: center;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
     font-size: large;
     font-weight: bolder;
+
+
 }
 
 .section-historico{
@@ -32,3 +34,7 @@
     width: 90vw;
 }
 
+.botao-imagem{
+    border-radius: 5%;
+    border: solid 0.1rem black;
+}
