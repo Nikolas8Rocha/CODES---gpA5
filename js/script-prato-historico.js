@@ -16,10 +16,7 @@ document.addEventListener('DOMContentLoaded', function(){
     //tilapia = document.querySelector("#Tilapia_grelhada")
     //frango = document.querySelector("#Frango_grelhado")
 
-    body = document.querySelector("body");
-    body.style.backgroundColor = "transparent"; 
-    body.style.backgroundImage = "url(Imagens/parede_branca.png)";
-    body.style.backgroundPosition = "center";
+
 
 
 
