@@ -21,17 +21,25 @@
 .separador{
     display: flex;
     border: solid;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
     background-color: #fff6e5;
     height: 13vh;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    font-weight: bold;
-    width: 100vw;
-    border-top: none;
+    width: 85vw;
+    position: relative;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 #titulo-item{
     border-top: solid;
+    height: 9vh;
+    margin-bottom: 3rem;
+    background-color: #fff6e5;
+    justify-content: center;
+    font-weight: 700;
 }
 
 .input-item{
