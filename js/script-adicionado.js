@@ -22,13 +22,27 @@ document.addEventListener('DOMContentLoaded', function(){
     body.style.backgroundRepeat = "no-repeat"; 
     body.style.backgroundPosition = "center";
 
-    seta = document.querySelector(".a-seta");
-    seta.style.filter = 'invert(100%)';
+    if (clicado != "Arroz Branco" && clicado != "Abacate"){
+        seta = document.querySelector(".a-seta");
+        seta.style.filter = 'invert(100%)';
+    }
 
     adicionar = document.querySelector(".a-adicionar");
+    console.log(adicionar);
     adicionar.addEventListener("click", function(evento){
+        //console.log(evento);
         evento.preventDefault();
-        adicionar.backgroundColor = '#98c379';
+        if (adicionar.style.backgroundColor === 'rgb(255, 246, 229)'){
+            adicionar.style.backgroundColor = '#98c379';
+            adicionar.querySelector(".adi").innerHTML = "Adicionado"
+            adicionar.querySelector(".adi").style.color = '#222222';
+        }
+        else{
+            adicionar.style.backgroundColor = '#fff6e5';
+            adicionar.querySelector(".adi").innerHTML = "Adicionar"
+            adicionar.querySelector(".adi").style.color = '#eb8b47';
+        }
+        
 
     })
     
