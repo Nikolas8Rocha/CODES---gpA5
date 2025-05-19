@@ -47,6 +47,14 @@
     background-color: #fff6e5;
     border: none;
     font-size: large;
+
+}
+
+#texto{
+        max-width: 40px;
+}
+#texto2{
+        max-width: 40px;
 }
 
 .input-item:focus{

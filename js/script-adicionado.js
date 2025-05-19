@@ -27,23 +27,36 @@ document.addEventListener('DOMContentLoaded', function(){
         seta.style.filter = 'invert(100%)';
     }
 
+    //parte que faz o item ser adicionado na dispensa
+    localStorage.setItem("finalizado", "Adicionar");
+    listaInformacoes = document.querySelectorAll(".input-item");
+
+
     adicionar = document.querySelector(".a-adicionar");
-    console.log(adicionar);
+    //console.log(adicionar);
+
     adicionar.addEventListener("click", function(evento){
         //console.log(evento);
         evento.preventDefault();
-        if (adicionar.style.backgroundColor === 'rgb(255, 246, 229)'){
+        if (adicionar.querySelector(".adi").innerHTML === "Adicionar"){
             adicionar.style.backgroundColor = '#98c379';
             adicionar.querySelector(".adi").innerHTML = "Adicionado"
             adicionar.querySelector(".adi").style.color = '#222222';
+            localStorage.setItem("finalizado", "Adicionado");
         }
         else{
             adicionar.style.backgroundColor = '#fff6e5';
-            adicionar.querySelector(".adi").innerHTML = "Adicionar"
+            adicionar.querySelector(".adi").innerHTML = "Adicionar";
             adicionar.querySelector(".adi").style.color = '#eb8b47';
+            localStorage.setItem("finalizado", "Adicionar");
         }
         
-
+        dadosInputs = {};
+        listaInformacoes.forEach(function(input){
+            chave = input.placeholder;
+            dadosInputs[chave] = input.value;
+        })
+        localStorage.setItem('dadosFormulario', JSON.stringify(dadosInputs));
     })
     
     

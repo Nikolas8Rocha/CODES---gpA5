@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         a_criado = document.createElement("a");
         a_criado.classList.add("a-section");
+        a_criado.id = "frango";
         
         //arrumar a lógica de levar até a tela de histórico
         a_criado.href = "/Prato_histórico.html";
@@ -48,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (tilapia == "true") {
         a_criado = document.createElement("a");
         a_criado.classList.add("a-section");
+        a_criado.id = "tilapia";
 
         section_criada2 = document.createElement("section");
         section_criada2.classList.add("section-favoritos2");

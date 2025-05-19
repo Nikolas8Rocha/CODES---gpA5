@@ -23,7 +23,11 @@ document.addEventListener('DOMContentLoaded', function(){
     iconeDispensa = document.querySelector('.dispensa');
     iconeDispensa.style.filter = 'invert(0%)';
     
-
+    dados = localStorage.getItem('dadosFormulario')
+    if (dados === null){
+        localStorage.setItem('dadosFormulario', JSON.stringify({}))
+    }   
+    ingrediente = localStorage.getItem("ingrediente");
 
 
 })
