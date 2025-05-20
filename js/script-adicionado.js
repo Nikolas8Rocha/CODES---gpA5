@@ -28,12 +28,13 @@ document.addEventListener('DOMContentLoaded', function(){
     }
 
     //parte que faz o item ser adicionado na dispensa
-    localStorage.setItem("finalizado", "Adicionar");
+    //localStorage.setItem("finalizado", "Adicionar");
     listaInformacoes = document.querySelectorAll(".input-item");
 
 
     adicionar = document.querySelector(".a-adicionar");
     //console.log(adicionar);
+    aux = 1;
 
     adicionar.addEventListener("click", function(evento){
         //console.log(evento);
@@ -48,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function(){
             adicionar.style.backgroundColor = '#fff6e5';
             adicionar.querySelector(".adi").innerHTML = "Adicionar";
             adicionar.querySelector(".adi").style.color = '#eb8b47';
-            localStorage.setItem("finalizado", "Adicionar");
+            //localStorage.setItem("finalizado", "Adicionar");
         }
         
         dadosInputs = {};
@@ -56,7 +57,15 @@ document.addEventListener('DOMContentLoaded', function(){
             chave = input.placeholder;
             dadosInputs[chave] = input.value;
         })
-        localStorage.setItem('dadosFormulario', JSON.stringify(dadosInputs));
+        if (dadosInputs["0"] === "" || dadosInputs['kg']=== "" || dadosInputs["data"]===""){
+            adicionar.style.backgroundColor = '#f5761b';
+            adicionar.querySelector(".adi").innerHTML = "Incompleto!";
+            adicionar.querySelector(".adi").style.color = '#222222';
+            localStorage.setItem("finalizado", "Incompleto");            
+
+        }
+
+
     })
     
     
