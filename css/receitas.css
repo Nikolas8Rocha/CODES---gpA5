@@ -7,15 +7,17 @@
 
 .pesquisa_e_filtro{
     display: flex;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
     height: 20vh;
-    width: 90vw;
+    width: 84vw;
     margin-bottom: 2rem;
     border: solid;
     height: 5vh;
     border-radius: 2rem;
     margin-top: 8rem;
+    background-color: #fff6e5;
 }
 
 .referencia_pesquisar,
@@ -35,19 +37,19 @@
 .barra_de_pesquisa{
     height: 5vh;
     border: none;
-    outline: none;
-    -webkit-tap-highlight-color: transparent;
-    background-color: #e0e0e0;
+    color: #eb8b47;
+    background-color: #fff6e5;
 }
 
 .opcoes{
     display: flex;
     flex-direction: row;
-    width: 80vw;
+    width: 85vw;
     height: 55vh;
     justify-content: center;
     align-items: center;
-    background-color:  #98c379;
+    background-color:  #fff6e5;
+    border: solid black;
 }
 
 

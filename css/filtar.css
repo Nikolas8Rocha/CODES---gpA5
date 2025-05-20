@@ -10,7 +10,7 @@
     align-items: center;
     width: 100%;
     height: 4vh;
-    margin-bottom: 10%;
+    margin-bottom: 22%;
     border-bottom:solid 1px;
     padding-bottom: 1rem;
 }
@@ -35,10 +35,14 @@
     height: 4vh;
 }
 
+
+
 .lista-filtros{
     list-style: none;
     border: solid;
-    width: 98vw;
+    border-radius: 2rem;
+    margin-bottom: 1.5rem;
+    width: 97vw;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -47,7 +51,7 @@
 }
 
 .a_filtros{
-    color: #eb8b47;
+    color: #222222;
     text-decoration: none;
     display: flex;
     justify-content: space-around;
@@ -62,17 +66,12 @@
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    font-size: 1.2rem;
 }
 
-#Alergias_e_Intolerancia{
-    border: none;
-    border-right: solid;
-    border-left: solid;
-}
 
-#Região_do_alimento{
-    border-bottom: none;
-}
+
+
 
 .seta-filtros{
     height: 2vh;
