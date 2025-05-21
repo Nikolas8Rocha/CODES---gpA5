@@ -1,5 +1,6 @@
 document.addEventListener('DOMContentLoaded', function(){
-
+    inputPesquisa = document.getElementById("pesquisa");
+    opcoes = document.querySelectorAll(".opcao")
     iconeFiltro = document.querySelector('.livro');
     iconeFiltro.style.filter = 'invert(0%)';
 
@@ -37,6 +38,32 @@ document.addEventListener('DOMContentLoaded', function(){
             
         })
     }
-    
+    inputPesquisa.addEventListener("input",function(){
+        termo = this.value.toLowerCase().trim();
+        opcoesmostradas = 0
+        if (termo === "") {
+            opcoes.forEach(opcao =>{
+                opcao.style.display = "flex"
+            })
+        }
+        else {
+            opcoes.forEach(opcao=>{
+                altTexto = opcao.querySelector("img").alt.toLowerCase();
+                if (altTexto.includes (termo)){
+                    opcao.style.display = "flex";
+                    opcoesmostradas++;
+                }
+                else{
+                    opcao.style.display = "none";
+                }
+            })
+        }
+     
+        if (opcoesmostradas === 0){
+                opcoes.forEach(opcao =>{
+                opcao.style.display = "flex"
+            })
+        }
+    })
 
 })
