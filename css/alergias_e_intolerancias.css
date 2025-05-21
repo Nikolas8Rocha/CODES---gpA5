@@ -20,14 +20,16 @@
 
 .lista-pai{
     margin-top: 1.5rem;
+
 }
 
 .lista-filho{
     list-style: none;
     margin-bottom: 1rem;
+    margin-left: 0.8rem;
     border: solid;
     border-radius: 2rem;
-    width: 100vw;
+    width: 92vw;
     height: 10vh;
     display: flex;
     align-items: center;
@@ -41,12 +43,13 @@
     width: 70vw;
     color: #eb8b47;
     font-weight: bold;
+    font-size: large;
 }
 
 .section-botao{
     display: flex;
     justify-content: center;
-    margin-top: 0.7rem;
+    margin-top: 0.1rem;
 }
 
 .check{
@@ -54,16 +57,24 @@
 }
 
 .lupa{
-    height: 3vh;
+    max-width: 29px;
+    max-height: 29px;
+    padding-right: 1.1rem;
+}
+
+.b-busca{
+    font-weight: bond;
+    font-size: large;
 }
 
 .botao_buscar{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    width: 40vw;
+    border-radius: 2rem;
+    width: 92vw;
     height: 5vh;
-    background-color: #fff6e5;
+    background-color: #e0e0e0;
     border: solid black 2px;
     text-decoration: none;
     color: black;

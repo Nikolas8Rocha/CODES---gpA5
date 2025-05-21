@@ -29,24 +29,43 @@
 .lista-filho{
     list-style: none;
     border: solid;
-    width: 60vw;
-    height: 8vh;
+    width: 80vw;
+    height: 20vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color:#fff6e5;
-    margin-bottom: 1rem;
+    margin-bottom: 1.8rem;
     cursor: pointer;
 }
+#frango{
+    background-image: url(/Imagens/frango_grelhado.png);
+    background-position: center;
+    background-size: 90vw auto;
+    background-repeat: no-repeat;
+}
 
-#derivados_animais,
-#lactose{
-    border: none;
+#peixe{
+    background-image: url(/Imagens/peixe_grelhado.png);
+    background-position: center;
+    background-size: 90vw auto;
+    background-repeat: no-repeat;
+}
+
+#polvo{
+    background-image: url(/Imagens/polvo_grelhado.png);
+    background-position: center;
+    background-size: 80vw auto;
+    background-repeat: no-repeat;
 }
 
 .texto-op{
-    color: #eb8b47;
-    font-weight: bold;
+    color: #222222;
+    font-weight: 900;
+    font-size: large;
+    position: relative;
+    top: -60%;
+    
 }
 
 .section-botao{
