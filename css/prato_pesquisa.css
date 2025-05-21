@@ -1,89 +1,62 @@
-.section-prato-historico{
-    margin-top: 6rem;
+.aux{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: solid 1px black;
-}
-.seta{
-    max-width: 29px;
-    max-height: 29px;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+    width: 92vw;
+    margin-left: auto;
+    margin-right: auto;    
 }
 
 .titulo-historico{
     font-size: 1.3rem;
     font-weight: bold;
     cursor: default;
+    margin-right: 5rem;
 
 }
 
-.fav{
-    cursor: pointer;
+
+.seta{
     max-width: 29px;
     max-height: 29px;
+    margin-left: 1.5rem;
 }
 
-.lista-pai{
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    margin-left: 1rem;
-    margin-right: 2rem;
-    width: 22rem;
+.section-prato-historico{
+    margin-top: 6rem;
     display: flex;
-    flex-direction: column;
-
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    border-bottom: solid 1px black;
     
 }
 
-.a-texto{
-    text-decoration: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-}
-.texto-historico{
-    color: black;
-    margin-bottom: 1rem;
-    position: absolute;
-    top: 1rem;
-    left: 5%;
-    color: #eb8b47;
-}
 
-.seta-li{
-    position: absolute;
-    right: 5%;
-    top: 1rem;
-    height: 2vh;
-    transform: scaleX(-1);
-}
+
+
+
 
 .section-video{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
 }
 
 .video-titulo{
     font-size: 1.3rem;
     font-weight: bold;
     color: #eb8b47;
+    margin-bottom: 0.5rem;
 }
 
 .video{
-    margin-top: 1rem;
-    width: 92vw;
-}
-
-.lista-filho{
-    background-color: #fff6e5;
-    margin: 0.2rem;
-    height: 3rem;
-    border-radius: 2rem;
-    border: solid 0.1rem black;
+    border-radius: 0.5rem;
+    width: 100%;
+    border: solid black;
 }

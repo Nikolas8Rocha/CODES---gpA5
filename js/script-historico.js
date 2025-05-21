@@ -18,7 +18,6 @@ document.addEventListener('DOMContentLoaded', function(){
         um_item.addEventListener("click", function(evento){
             item_clicado = evento.currentTarget;
             receita = item_clicado.innerHTML;
-            console.log(receita);
             localStorage.setItem("titulo-prato", item_clicado.querySelector("h4").innerHTML);
             localStorage.setItem("prato", receita);
             

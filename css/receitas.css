@@ -98,6 +98,9 @@
         justify-content: center;
         align-items: center;
         background-color:  #98c379;
+        background-position: center;
+        background-size: 60vw auto;
+        background-repeat: no-repeat;
     }
     
     
