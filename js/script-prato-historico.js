@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function(){
         
         
         if (estrela.src.includes("estrela_cinza.png")){
-            estrela.src = "Imagens/estrela_laranja.png"
+            estrela.src = "/projeto/Imagens/estrela_laranja.png"
             if (titulo_pagina.innerHTML == "Filé de Tilápia Grelhada"){
                 localStorage.setItem("tilapia_grelhada_selecionada", "true");
             }
@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
         }
         else{
-            estrela.src = "Imagens/estrela_cinza.png"
+            estrela.src = "/projeto/Imagens/estrela_cinza.png"
             if (titulo_pagina.innerHTML == "Filé de Tilápia Grelhada"){
                 localStorage.setItem("tilapia_grelhada_selecionada", "false");
             }

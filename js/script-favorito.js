@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
         a_criado.id = "frango";
         
         //arrumar a lógica de levar até a tela de histórico
-        a_criado.href = "/Prato_histórico.html";
+        a_criado.href = "/projeto/Prato_histórico.html";
             
         
         
@@ -28,11 +28,11 @@ document.addEventListener('DOMContentLoaded', function () {
         img_criada = document.createElement("img");
         img_criada.classList.add("img-menor");
         img_criada.alt = "Frango grelhado";
-        img_criada.src = "Imagens/frango_grelhado.png"
+        img_criada.src = "/projeto/Imagens/frango_grelhado.png"
 
         img_estrela = document.createElement("img");
         img_estrela.classList.add("img-estrela");
-        img_estrela.src= "Imagens/estrela_laranja.png";
+        img_estrela.src= "/projeto/Imagens/estrela_laranja.png";
         img_estrela.alt = "Favoritada";
         
 
@@ -60,11 +60,11 @@ document.addEventListener('DOMContentLoaded', function () {
         img_criada2 = document.createElement("img");
         img_criada2.classList.add("img-menor2");
         img_criada2.alt = "Tilapia Grelhada";
-        img_criada2.src = "Imagens/tilapia_grelhada.png";
+        img_criada2.src = "/projeto/Imagens/tilapia_grelhada.png";
 
         img_estrela2 = document.createElement("img");
         img_estrela2.classList.add("img-estrela2");
-        img_estrela2.src= "Imagens/estrela_laranja.png";
+        img_estrela2.src= "/projeto/Imagens/estrela_laranja.png";
         img_estrela2.alt = "Favoritada";
 
         

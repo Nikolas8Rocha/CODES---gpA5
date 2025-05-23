@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', function(){
 
     EstrelaImg.addEventListener("click", function(event){
         if (EstrelaImg.src.includes("estrela_laranja.png")){
-            EstrelaImg.src = "Imagens/estrela_cinza.png"
+            EstrelaImg.src = "/projeto/Imagens/estrela_cinza.png"
         }
         else{
-            EstrelaImg.src = "Imagens/estrela_laranja.png"
+            EstrelaImg.src = "/projeto/Imagens/estrela_laranja.png"
         }
 
     })

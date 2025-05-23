@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function(){
             item_clicado = evento.currentTarget;
             //console.log(item_clicado);
             localStorage.setItem("ingrediente", item_clicado.querySelector(".texto-lista").innerHTML);
-            window.location.href = "/Item_a_ser_adicionado.html";
+            window.location.href = "/projeto/Item_a_ser_adicionado.html";
         })
     
         

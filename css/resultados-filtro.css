@@ -39,21 +39,21 @@
     cursor: pointer;
 }
 #frango{
-    background-image: url(/Imagens/frango_grelhado.png);
+    background-image: url(/projeto/Imagens/frango_grelhado.png);
     background-position: center;
     background-size: 90vw auto;
     background-repeat: no-repeat;
 }
 
 #peixe{
-    background-image: url(/Imagens/peixe_grelhado.png);
+    background-image: url(/projeto/Imagens/peixe_grelhado.png);
     background-position: center;
     background-size: 90vw auto;
     background-repeat: no-repeat;
 }
 
 #polvo{
-    background-image: url(/Imagens/polvo_grelhado.png);
+    background-image: url(/projeto/Imagens/polvo_grelhado.png);
     background-position: center;
     background-size: 80vw auto;
     background-repeat: no-repeat;

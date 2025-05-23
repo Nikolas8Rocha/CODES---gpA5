@@ -9,9 +9,9 @@ document.addEventListener('DOMContentLoaded', function(){
 
     titulo_item.innerHTML = "Item: " + clicado;
 
-    dic_imagens = {"Abacate":"/Imagens/abacates.png", "Abacaxi":"/Imagens/abacaxi.png",
-        "Abóbora":"/Imagens/abobora.png","Alcatra":"/Imagens/alcatra.png",
-        "Anchova":"/Imagens/anchova.png","Arroz Branco":"Imagens/arroz_branco.png"
+    dic_imagens = {"Abacate":"/projeto/Imagens/abacates.png", "Abacaxi":"/projeto/Imagens/abacaxi.png",
+        "Abóbora":"/projeto/Imagens/abobora.png","Alcatra":"/projeto/Imagens/alcatra.png",
+        "Anchova":"/projeto/Imagens/anchova.png","Arroz Branco":"/projeto/Imagens/arroz_branco.png"
     }
 
 

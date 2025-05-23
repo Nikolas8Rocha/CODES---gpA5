@@ -6,18 +6,18 @@ document.addEventListener('DOMContentLoaded', function(){
 
     botoes = document.querySelectorAll(".opcao");
 
-    dic_comidas = {"/Imagens/icones_pesquisa/arabe.png":"Árabe",
-        "/Imagens/icones_pesquisa/carne.png":"Carnes", 
-        "/Imagens/icones_pesquisa/hamburguer.png":"Hamburguer",
-        "/Imagens/icones_pesquisa/hotdog.png":"Hotdog",
-        "/Imagens/icones_pesquisa/japonesa.png":"Japonesa",
-        "/Imagens/icones_pesquisa/massas.png":"Massas",
-        "/Imagens/icones_pesquisa/mexicana.png":"Mexicana",
-        "/Imagens/icones_pesquisa/peixe.png":"Peixe",
-        "/Imagens/icones_pesquisa/pizza.png":"Pizza",
-        "/Imagens/icones_pesquisa/salada.png":"Salada",
-        "/Imagens/icones_pesquisa/sorvetes.png":"Sorvetes",
-        "/Imagens/icones_pesquisa/vegana.png":"Vegana"
+    dic_comidas = {"/projeto/Imagens/icones_pesquisa/arabe.png":"Árabe",
+        "/projeto/Imagens/icones_pesquisa/carne.png":"Carnes", 
+        "/projeto/Imagens/icones_pesquisa/hamburguer.png":"Hamburguer",
+        "/projeto/Imagens/icones_pesquisa/hotdog.png":"Hotdog",
+        "/projeto/Imagens/icones_pesquisa/japonesa.png":"Japonesa",
+        "/projeto/Imagens/icones_pesquisa/massas.png":"Massas",
+        "/projeto/Imagens/icones_pesquisa/mexicana.png":"Mexicana",
+        "/projeto/Imagens/icones_pesquisa/peixe.png":"Peixe",
+        "/projeto/Imagens/icones_pesquisa/pizza.png":"Pizza",
+        "/projeto/Imagens/icones_pesquisa/salada.png":"Salada",
+        "/projeto/Imagens/icones_pesquisa/sorvetes.png":"Sorvetes",
+        "/projeto/Imagens/icones_pesquisa/vegana.png":"Vegana"
     }
 
     for (link of botoes){
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
             titulo = dic_comidas[caminhoRelativo];
             localStorage.setItem("tipo", titulo);
-            window.location.href = "/Prato_pesquisa.html";
+            window.location.href = "/projeto/Prato_pesquisa.html";
             //console.log(titulo);
             
         })
