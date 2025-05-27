@@ -56,7 +56,9 @@
 #texto2{
         max-width: 40px;
 }
-
+#texto2::placeholder {
+    color: lightgray; 
+}
 .input-item:focus{
     outline: none;
 }
