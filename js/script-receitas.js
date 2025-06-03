@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', function(){
             //titulo = dic_comidas[caminhoRelativo];
             titulo = "peixe"
             localStorage.setItem("tipo", titulo);
-            window.location.href = "/projeto/Prato_pesquisa.html";
+            //window.location.href = "/projeto/Prato_pesquisa.html";
             //console.log(titulo);
             
         })
