@@ -26,14 +26,15 @@ document.addEventListener('DOMContentLoaded', function(){
             link_clicado = evento.currentTarget;
             imagemClicada = link_clicado.querySelector(".imagem-opcao");
             caminhoImagem = imagemClicada.src;
-            console.log(caminhoImagem);
+            //console.log(caminhoImagem);
             
             tiraCaminho = caminhoImagem.indexOf('/Imagens/');
-            console.log(tiraCaminho);
+            //console.log(tiraCaminho);
             caminhoRelativo = caminhoImagem.slice(tiraCaminho);
-            console.log(caminhoRelativo);
+            //console.log(caminhoRelativo);
+            console.log(dic_comidas['projeto'+ caminhoRelativo]);
 
-            //titulo = dic_comidas[caminhoRelativo];
+            //titulo = dic_comidas['projeto'+ caminhoRelativo];
             titulo = "Peixe"
             localStorage.setItem("tipo", titulo);
             //window.location.href = "/projeto/Prato_pesquisa.html";
