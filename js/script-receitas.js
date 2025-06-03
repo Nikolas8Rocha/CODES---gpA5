@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function(){
             tiraCaminho = caminhoImagem.indexOf('/Imagens/');
             //console.log(tiraCaminho);
             caminhoRelativo = caminhoImagem.slice(tiraCaminho);
-            //console.log(caminhoRelativo);
+            console.log(caminhoRelativo);
             console.log('/projeto'+caminhoRelativo);
             //console.log(dic_comidas['projeto'+ caminhoRelativo]);
 
