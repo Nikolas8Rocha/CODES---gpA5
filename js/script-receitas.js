@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function(){
             caminhoImagem = imagemClicada.src;
             //console.log(caminhoImagem);
             
-            tiraCaminho = caminhoImagem.indexOf('/Imagens/');
+            tiraCaminho = caminhoImagem.indexOf('projeto/Imagens/');
             caminhoRelativo = caminhoImagem.slice(tiraCaminho);
 
             titulo = dic_comidas[caminhoRelativo];
