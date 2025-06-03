@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', function(){
             //console.log(tiraCaminho);
             caminhoRelativo = caminhoImagem.slice(tiraCaminho);
             //console.log(caminhoRelativo);
-            console.log(dic_comidas['projeto'+ caminhoRelativo]);
+            console.log('/projeto'+caminhoRelativo);
+            //console.log(dic_comidas['projeto'+ caminhoRelativo]);
 
             //titulo = dic_comidas['projeto'+ caminhoRelativo];
             titulo = "Peixe"
