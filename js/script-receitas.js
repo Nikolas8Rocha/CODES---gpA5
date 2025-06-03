@@ -31,7 +31,8 @@ document.addEventListener('DOMContentLoaded', function(){
             tiraCaminho = caminhoImagem.indexOf('projeto/Imagens/');
             caminhoRelativo = caminhoImagem.slice(tiraCaminho);
 
-            titulo = dic_comidas[caminhoRelativo];
+            //titulo = dic_comidas[caminhoRelativo];
+            titulo = "peixe"
             localStorage.setItem("tipo", titulo);
             window.location.href = "/projeto/Prato_pesquisa.html";
             //console.log(titulo);
